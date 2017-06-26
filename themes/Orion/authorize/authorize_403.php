@@ -18,7 +18,6 @@ $this->data['403_text'] = $this->t('{authorize:Authorize:403_text}');
 <h1 class="text-center"><?php echo $this->data['403_header']; ?></h1>
 <p><?php echo $this->data['403_text']; ?></p>
 <ul class="list-unstyled">
-	<li><a href="https://my.adu.edu">Return to my.adu.edu</a></li>
 <?php
 if (isset($this->data['LogoutURL'])) {
 ?>

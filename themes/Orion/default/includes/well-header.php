@@ -54,13 +54,13 @@ header('X-Frame-Options: SAMEORIGIN');
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Custom styles for this template -->
-  <link href="<?php echo SimpleSAML_Module::getModuleURL('themeADU/css/signin.css'); ?>" rel="stylesheet">
+  <link href="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/css/signin.css'); ?>" rel="stylesheet">
 </head>
 <body class="login">
 	<div id="login" class="container">
 		<div class="col-md-offset-2 col-md-8 well">
 			<a href="https://my.adu.edu">
-				<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeADU/logo.png') ?>" style="margin: 0 auto;" />
+				<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/logo.png') ?>" style="margin: 0 auto;" />
 			</a>
 
 <?php

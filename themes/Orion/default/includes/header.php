@@ -50,7 +50,8 @@ if(array_key_exists('header', $this->data)) {
 }
 ?></title>
 
-	<link rel="stylesheet" type="text/css" href="/<?php echo $this->data['baseurlpath']; ?>resources/adu_theme/adu.css" />
+	<!-- Where does this link to? -->
+	<link rel="stylesheet" type="text/css" href="/<?php echo $this->data['baseurlpath']; ?>resources/orion_theme/orion.css" />
 	<link rel="icon" type="image/icon" href="/<?php echo $this->data['baseurlpath']; ?>resources/icons/favicon.ico" />
 
 <?php
@@ -128,7 +129,7 @@ if($onLoad !== '') {
 <div id="wrap" class="container">
 	
 	<div id="header">
-			<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeADU/logo.png') ?>" />
+			<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/logo.png') ?>" />
 		<h1><a style="text-decoration: none; color: white" href="/<?php echo $this->data['baseurlpath']; ?>"><?php 
 			echo (isset($this->data['header']) ? $this->data['header'] : 'simpleSAMLphp'); 
 		?></a></h1>

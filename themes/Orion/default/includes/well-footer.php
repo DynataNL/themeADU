@@ -9,7 +9,7 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
 	</div>		<!-- end of container -->
 
 	<!-- Custom Bootstrap CSS - hidden attribute CSS removed -->
-	<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themeADU/css/bootstrap.min.css') ?>">
+	<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/css/bootstrap.min.css') ?>">
 
 </body>
 </html>
