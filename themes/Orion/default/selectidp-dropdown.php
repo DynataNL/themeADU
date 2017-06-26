@@ -23,7 +23,7 @@ foreach ($this->data['idplist'] as $idpentry) {
 	<input type="hidden" name="entityID" value="<?php echo htmlspecialchars($this->data['entityID']); ?>"/>
 	<input type="hidden" name="return" value="<?php echo htmlspecialchars($this->data['return']); ?>"/>
 	<input type="hidden" name="returnIDParam" value="<?php echo htmlspecialchars($this->data['returnIDParam']); ?>"/>
-	<label for="idpentityid" class="sr-only"><?php echo $this->t('selectidp_full'); ?></label>
+	<label for="idpentityid"><?php echo $this->t('selectidp_full'); ?></label>
 	<select id="dropdownlist" name="idpentityid" id="idpentityid" class="form-control">
 		<?php
 
@@ -48,7 +48,7 @@ foreach ($this->data['idplist'] as $idpentry) {
 	<button class="btn btn-lg btn-primary btn-block" type="submit"><?php echo $this->t('select'); ?></button>
 	<?php
 	if ($this->data['rememberenabled']) {
-		echo('<br/><h3><input type="checkbox" name="remember" value="1" />'.$this->t('remember').'</h3>');
+		echo('<br/><p><input type="checkbox" name="remember" value="1" />'.$this->t('remember').'</p>');
 	}
 	?>
 </form>
