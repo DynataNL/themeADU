@@ -67,7 +67,7 @@ header('X-Frame-Options: SAMEORIGIN');
 		
 		$languages = array('nl'=>'','en'=>'');
 		if ( count($languages) > 1 ) {
-			echo '<div id="languagebar">';
+			echo '<div id="languagebar" style="text-align: center;">';
 			$langnames = array(
 						'no' => 'Bokmål', // Norwegian Bokmål
 						'nn' => 'Nynorsk', // Norwegian Nynorsk
