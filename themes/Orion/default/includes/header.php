@@ -137,10 +137,10 @@ if($onLoad !== '') {
 
 	
 	<?php 	
-	$includeLanguageBar = TRUE;
+	$includeLanguageBar = FALSE;
 	if ($includeLanguageBar) {
 		
-		$languages = array('nl'=>'','en'=>'');
+		$languages = array('nl'=>'','en'=>'','de'=>'');
 		if ( count($languages) > 1 ) {
 			echo '<div id="languagebar">';
 			$langnames = array(
