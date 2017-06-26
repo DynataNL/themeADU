@@ -20,11 +20,11 @@ foreach ($this->data['idplist'] as $idpentry) {
 
 <form method="get" action="<?php echo $this->data['urlpattern']; ?>">
 	<h3 class="form-signin-heading text-center"><?php echo $this->data['header']; ?></h3>
-	<p><?php echo $this->t('selectidp_full'); ?></p>
+	<h5><?php echo $this->t('selectidp_full'); ?></h5>
 	<input type="hidden" name="entityID" value="<?php echo htmlspecialchars($this->data['entityID']); ?>"/>
 	<input type="hidden" name="return" value="<?php echo htmlspecialchars($this->data['return']); ?>"/>
 	<input type="hidden" name="returnIDParam" value="<?php echo htmlspecialchars($this->data['returnIDParam']); ?>"/>
-	<select id="dropdownlist" name="idpentityid">
+	<select id="dropdownlist" name="idpentityid" class="form-control">
 		<?php
 
 		$GLOBALS['__t'] = $this;
@@ -44,11 +44,11 @@ foreach ($this->data['idplist'] as $idpentry) {
 			echo '>'.htmlspecialchars($this->t('idpname_'.$idpentry['entityid'])).'</option>';
 		}
 		?>
-	</select>
+	</select></br>
 	<button class="btn btn-lg btn-primary btn-block" type="submit"><?php echo $this->t('select'); ?></button>
 	<?php
 	if ($this->data['rememberenabled']) {
-		echo('<br/><input type="checkbox" name="remember" value="1" />'.$this->t('remember'));
+		echo('<br/><h5><input type="checkbox" name="remember" value="1" />'.$this->t('remember').'</h5>');
 	}
 	?>
 </form>
