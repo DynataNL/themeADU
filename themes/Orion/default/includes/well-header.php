@@ -65,7 +65,7 @@ header('X-Frame-Options: SAMEORIGIN');
 	$includeLanguageBar = TRUE;
 	if ($includeLanguageBar) {
 		
-		$languages = array('nl'=>'','en'=>'');
+		$languages = array('nl'=>'','en'=>'','de'=>'');
 		if ( count($languages) > 1 ) {
 			echo '<div id="languagebar" style="text-align: center;">';
 			$langnames = array(
