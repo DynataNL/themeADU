@@ -59,9 +59,7 @@ header('X-Frame-Options: SAMEORIGIN');
 <body class="login">
 	<div id="login" class="container">
 		<div class="col-md-offset-2 col-md-8 well">
-			<a href="https://my.adu.edu">
 				<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/logo.png') ?>" style="margin: 0 auto;" />
-			</a>
 
 <?php
 
