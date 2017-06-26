@@ -62,7 +62,7 @@ header('X-Frame-Options: SAMEORIGIN');
 				<img class="img-responsive" alt="logo" src="<?php echo SimpleSAML_Module::getModuleURL('themeOrion/logo.png') ?>" style="margin: 0 auto;" />
 
 	<?php 	
-	$includeLanguageBar = FALSE;
+	$includeLanguageBar = TRUE;
 	if ($includeLanguageBar) {
 		
 		$languages = array('nl'=>'','en'=>'');
